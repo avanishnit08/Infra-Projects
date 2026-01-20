@@ -9,10 +9,10 @@ trigger:
 pool: Default
 
 stages:
-  - stage: terrform-install
+  - stage: terrforminstall
     displayName: terraform installation
     jobs:
-      - job: terraform-installation
+      - job: terraforminstallation
         steps:
         - task: TerraformInstaller@1
           inputs:
