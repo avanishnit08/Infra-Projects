@@ -21,3 +21,5 @@ stages:
           inputs:
             provider: 'azurerm'
             command: 'init'
+            workingDirectory: '$(System.DefaultWorkingDirectory)\Environment\Dev'
+            backendServiceArm: 'ado-azure'
