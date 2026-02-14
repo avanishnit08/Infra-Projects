@@ -31,5 +31,4 @@ module "vm" {
 # module "nic" {
 #   depends_on = [ module.infra_subnet1 ]
 #   source = "../../Module/nic"
-#   infra_nic1 = var.infra_nic1
 # }
